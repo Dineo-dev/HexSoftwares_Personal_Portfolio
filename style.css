@@ -70,6 +70,8 @@ nav{
 .nav-container .links a:hover::before{
     width: 100%;
 }
+
+/* we are here Dineo */
 .nav-container .contact-btn{
     background-color: transparent;
     padding: 5px 20px;
@@ -85,6 +87,25 @@ nav{
     background-color: rgb(109,67, 0);
     color: white;
 }
+
+/* Service button testing */
+
+.nav-container .services-btn{
+    background-color: transparent;
+    padding: 5px 20px;
+    border-radius: 20px;
+    /* border: 2px solid rgb(109,67, 0); */
+    transition: 0.2s linear;
+}
+.nav-container .services-btn a{
+    color: black;
+    transition: 0.3s linear;
+}
+.nav-container .services-btn:hover, .nav-container .services-btn:hover a{
+    background-color: rgb(109,67, 0);
+    color: white;
+}
+
 .nav-container .links a:hover{
     color: rgb(109,67, 0);
 }
