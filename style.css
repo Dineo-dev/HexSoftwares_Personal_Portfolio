@@ -88,7 +88,7 @@ nav{
     color: white;
 }
 
-/* Service button testing */
+/* Service button */
 
 .nav-container .services-btn{
     background-color: transparent;
@@ -105,6 +105,8 @@ nav{
     background-color: rgb(109,67, 0);
     color: white;
 }
+
+/*  */
 
 .nav-container .links a:hover{
     color: rgb(109,67, 0);
