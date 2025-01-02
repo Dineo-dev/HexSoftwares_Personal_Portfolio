@@ -90,18 +90,18 @@ nav{
 
 /* Skills button */
 
-nav-container .contact-btn{
+.nav-container .Skills-btn{
     background-color: transparent;
     padding: 5px 20px;
     border-radius: 20px;
     border: 2px solid rgb(109,67, 0);
     transition: 0.2s linear;
 }
-.nav-container .contact-btn a{
+.nav-container .Skills-btn a{
     color: white;
     transition: 0.3s linear;
 }
-.nav-container .contact-btn:hover, .nav-container .contact-btn:hover a{
+.nav-container .Skills-btn:hover, .nav-container .Skills-btn:hover a{
     background-color: rgb(109,67, 0);
     color: white;
 }
