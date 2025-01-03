@@ -90,18 +90,30 @@ nav{
 
 /* Skills button */
 
+<<<<<<< HEAD
 .nav-container .skills-btn{
+=======
+.nav-container .Skills-btn{
+>>>>>>> 5793718c9ce4f4aef485a613df394bc22b37e7f0
     background-color: transparent;
     padding: 5px 20px;
     border-radius: 20px;
     border: 2px solid rgb(109,67, 0);
     transition: 0.2s linear;
 }
+<<<<<<< HEAD
 .nav-container .skills-btn a{
     color: white;
     transition: 0.3s linear;
 }
 .nav-container .skills-btn:hover, .nav-container .skills-btn:hover a{
+=======
+.nav-container .Skills-btn a{
+    color: white;
+    transition: 0.3s linear;
+}
+.nav-container .Skills-btn:hover, .nav-container .Skills-btn:hover a{
+>>>>>>> 5793718c9ce4f4aef485a613df394bc22b37e7f0
     background-color: rgb(109,67, 0);
     color: white;
 }
