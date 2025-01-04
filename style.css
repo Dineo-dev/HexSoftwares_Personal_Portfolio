@@ -76,7 +76,7 @@ nav{
     background-color: transparent;
     padding: 5px 20px;
     border-radius: 20px;
-    border: 2px solid rgb(109,67, 0);
+    /* border: 2px solid rgb(109,67, 0); */
     transition: 0.2s linear;
 }
 .nav-container .contact-btn a{
