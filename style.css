@@ -88,13 +88,31 @@ nav{
     color: white;
 }
 
+/* Home button */
+
+.nav-container .home-btn{
+    background-color: transparent;
+    padding: 5px 20px;
+    border-radius: 20px;
+    /* border: 2px solid rgb(109,67, 0); */
+    transition: 0.2s linear;
+}
+.nav-container .home-btn a{
+    color: black;
+    transition: 0.3s linear;
+}
+.nav-container .home-btn:hover, .nav-container .home-btn:hover a{
+    background-color: rgb(109,67, 0);
+    color: white;
+}
+
 /* About button */
 
 .nav-container .about-btn{
     background-color: transparent;
     padding: 5px 20px;
     border-radius: 20px;
-    border: 2px solid rgb(109,67, 0);
+    /* border: 2px solid rgb(109,67, 0); */
     transition: 0.2s linear;
 }
 .nav-container .about-btn a{
@@ -112,7 +130,7 @@ nav{
     background-color: transparent;
     padding: 5px 20px;
     border-radius: 20px;
-    border: 2px solid rgb(109,67, 0);
+    /* border: 2px solid rgb(109,67, 0); */
     transition: 0.2s linear;
 }
 .nav-container .skills-btn a{
