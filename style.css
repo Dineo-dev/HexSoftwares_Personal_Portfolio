@@ -89,6 +89,28 @@ nav{
     color: white;
 }
 
+/* Contact page edits */
+
+
+.nav-container .main{
+    background-color: transparent;
+    padding: 5px 20px;
+    border-radius: 20px;
+    /* border: 2px solid rgb(109,67, 0); */
+    transition: 0.2s linear;
+}
+
+.nav-container .main a{
+    color: black;
+    transition: 0.3s linear;
+    text-decoration: none;
+}
+.nav-container .contact-btn:hover, .nav-container .contact-btn:hover a{
+    background-color: rgb(109,67, 0);
+    color: white;
+}
+
+
 /* Home button */
 
 .nav-container .home-btn{
@@ -337,4 +359,8 @@ section{
         width: 80%;
         margin-bottom: 0px;
     }
+}
+
+.contact-page .contact-form{
+
 }
