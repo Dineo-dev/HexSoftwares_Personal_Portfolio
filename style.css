@@ -275,9 +275,9 @@ section{
     34%, 66%{
         content: "Designer";
     }
-    /* 67%, 100%{
-        content: "Youtuber";
-    } */
+    67%, 100%{
+        content: "Tester";
+    } 
 }
 .content p{
     font-size: clamp(0.4rem, 0.2rem + 9vw, 1rem);
