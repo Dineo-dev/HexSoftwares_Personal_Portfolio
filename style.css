@@ -279,7 +279,7 @@ section{
     width: 50%;
 }
 .main-container .image img{
-    width: 100%;
+    width: 90%;
 }
 .main-container .content{
     color: black;
@@ -288,6 +288,12 @@ section{
 }
 .content h1{
     font-size: clamp(1rem, 2rem + 5vw, 3rem);
+}
+
+/* p */
+
+.content p{
+    text-justify:distribute-all-lines;
 }
 .content h1 span{
     color: rgb(109,67, 0);
