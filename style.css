@@ -166,6 +166,41 @@ nav{
     color: white;
 }
 
+/* check skills */
+
+.skills-section {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+    padding: 20px;
+    /* background-color: #f9f9f9; */
+    /* border: 1px solid #ddd; */
+    /* border-radius: 10px; */
+}
+
+/* Unordered list styling */
+.skills-list {
+    list-style-type: disc; /* Default bullet points */
+    margin: 0 auto; /* Centers the list horizontally */
+    padding: 0;
+    display: inline-block; /* Makes the list behave like inline content */
+    text-align: left; /* Ensures bullets align correctly */
+    color: #444;
+}
+
+/* List item styling */
+.skills-list li {
+    margin: 5px 0; /* Space between list items */
+    font-size: 1.2rem; /* Increase font size */
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.skills-list li:hover {
+    transform: translateX(5px); /* Moves the item slightly to the right */
+    color: #6d4300; /* Change text color */
+}
+
 /* Service button */
 
 .nav-container .services-btn{
