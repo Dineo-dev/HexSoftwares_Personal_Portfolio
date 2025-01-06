@@ -294,6 +294,38 @@ section{
 
 /* p */
 
+.main-container .skills-section{
+    color: black;
+    width: 40%;
+    min-height: 100px;
+}
+
+.skills-section h1{
+    font-size: clamp(1rem, 2rem + 5vw, 3rem);
+}
+
+.skills-section p{
+    text-justify:distribute-all-lines;
+}
+
+.skills-section h1 span{
+    color: rgb(109,67, 0);
+    text-shadow: 0 0 10px rgb(109,67, 0);
+}
+
+.skills-section .typewriter{
+    font-weight: 300;
+    font-size: clamp(1rem, 1rem + 5vw, 2rem);
+}
+
+.skills-section .typewriter span{
+    color: rgb(109,67, 0);
+    font-size: 2rem;
+    text-shadow: 0 0 5px rgb(109,67, 0);
+    position: relative;
+    transition: 0.3s linear;
+}
+
 .content p{
     text-justify:distribute-all-lines;
 }
